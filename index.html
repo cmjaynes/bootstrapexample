@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head></head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Site</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="/Users/katiejaynes/Desktop/bootstrap/jaynes bootstrap site/main.css">
+</head>
+
+<body>
+      <!---Nav Bar-->
+      <div class="container-fluid" id="navigation">
+        <div class="row navigation">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="#"><img src="MJ.png" style="height: 60px;" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    My Works
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Websites</a>
+                    <a class="dropdown-item" href="#">Photography</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+    </div>
+<!---end of navigation-->
+
+
+<!-- Full Page Image Header with Vertically Centered Content -->
+<header class="masthead">
+  <div class="container h-100">
+    <div class="row h-100 align-items-center">
+      <div class="col-12 text-center">
+        <h1 class="fw-light">Hi,</h1>
+        <p class="lead">I'm Mitchel Jaynes | Aspiring Front-End Developer </p>
+      </div>
+    </div>
+  </div>
+</header>
+
+  <div class="container mt-5 mb-5">
+    <div class="row">
+      <div class="col-6 border-right border-dark">
+        <ul class="nav nav-pills mb-3 bg-gradient bg-light text-black-50" id="pills-tab" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Hobbies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Hidden Talents</a>
+          </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"> <h3> My Experience </h3> <br> I currently work as the SEO and Analytics Director for a B2B media company. This involves montioring 80+ brands organic traffic, monthly reporting, and high-level deisions. <br> <h6 class="mt-2"> My Life in The SEO World </h6> I've spent over 7 years in the SEO field working on everything from life insurance companies, to large finanacial blogs.</div>
+          <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+          <h5> I Enjoy: </h5>
+            <ul>
+            <li> Reading </li>
+            <li> Working Out </li>
+            <li> Sports </li>
+            <li> Coffee </li>
+            <li> Additional Coffee </li>
+          </ul>
+          </div>
+          <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus facere iusto dolor atque ipsum officiis sint, repellendus ex quo iure eligendi qui deleniti quaerat praesentium maiores doloribus a, inventore temporibus!</div>
+        </div>
+      </div>
+      <div class="col-6">
+        <img src="/Users/katiejaynes/Desktop/bootstrap/jaynes bootstrap site/images/JaynesFall2022-8.jpg" alt="" class="img-thumbnail img-fluid rounded d-none d-md-block">
+      </div>
+    </div>
+  </div>
+
+  <!-- Gallery -->
+<h2 class="text-center"> Enjoy Some Pictures of Me and My Family </h2>  
+<div class="row m-2">
+  <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+    <img
+      src="/Users/katiejaynes/Desktop/bootstrap/jaynes bootstrap site/images/JaynesFall2022-2.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Boat on Calm Water"
+    />
+
+    <img
+      src="/Users/katiejaynes/Desktop/bootstrap/jaynes bootstrap site/images/JaynesFall2022-6.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Wintry Mountain Landscape"
+    />
+  </div>
+
+  <div class="col-lg-4 mb-4 mb-lg-0">
+    <img
+      src="/Users/katiejaynes/Desktop/bootstrap/jaynes bootstrap site/images/JaynesFall2022-4.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Mountains in the Clouds"
+    />
+
+    <img
+      src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Boat on Calm Water"
+    />
+  </div>
+
+  <div class="col-lg-4 mb-4 mb-lg-0">
+    <img
+      src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Waves at Sea"
+    />
+
+    <img
+      src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Yosemite National Park"
+    />
+  </div>
+</div>
+<!-- Gallery -->
+<div class="containerk">
+  <h3 class="text-center border-top-3 border-dark"> If You're Enjoyed My Work, Feel Free to Reach Out!</h3>
+</div>
+      <!-- Wrapper container -->
+      <div class="container py-4 align-content-center" style="max-width: 600px;">
+
+        <!-- Bootstrap 5 starter form -->
+        <form id="contactForm">
+
+          <!-- Name input -->
+          <div class="mb-3">
+            <label class="form-label" for="name">Name</label>
+            <input class="form-control" id="name" type="text" placeholder="Name" />
+          </div>
+
+          <!-- Email address input -->
+          <div class="mb-3">
+            <label class="form-label" for="emailAddress">Email Address</label>
+            <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" />
+          </div>
+
+          <!-- Message input -->
+          <div class="mb-3">
+            <label class="form-label" for="message">Message</label>
+            <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;"></textarea>
+          </div>
+
+          <!-- Form submit button -->
+          <div class="d-grid">
+            <button class="btn btn-primary btn-lg" type="submit">Submit</button>
+          </div>
+
+        </form>
+
+      </div>
+    </div>
+  </div>
+</body>
+</html>
